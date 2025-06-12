@@ -168,7 +168,7 @@ div {
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 600;
     font-style: normal;
-    font-size: 15.25px;
+    font-size: 13px;
     color: var(--sk-foreground);
     background: var(--sk-background);
     border: solid 2px var(--sk-selection);
