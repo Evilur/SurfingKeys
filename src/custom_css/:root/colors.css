@@ -1,12 +1,39 @@
 :root {
-    --sk-foreground: #f8f8f2;
-    --sk-background: #282a36;
-    --sk-selection:  #44475a;
-    --sk-comment:    #6272a4;
-    --sk-red:        #ff4064;
-    --sk-yellow:     #fdd835;
-    --sk-green:      #23e863;
-    --sk-cyan:       #00d0ff;
-    --sk-blue:       #0070ff;
-    --sk-purple:     #cd29ff;
+    --sk-crust: #181926;
+    --sk-mantle: #1e2030;
+    --sk-base: #24273a;
+    --sk-grey-900: #353955;
+    --sk-grey-800: #484e74;
+    --sk-grey-700: #5a6191;
+    --sk-grey-600: #6e76a5;
+    --sk-grey-500: #8188b1;
+    --sk-grey-400: #949abd;
+    --sk-grey-300: #a4a8c6;
+    --sk-grey-200: #b7bad2;
+    --sk-grey-100: #caccde;
+    --sk-text: #f2f4fd;
+
+    --sk-pink: #ff52e9;
+    --sk-pink-bright: #ff70f1;
+    --sk-red: #ff4064;
+    --sk-red-bright: #ff5c7b;
+    --sk-orange: #ff8147;
+    --sk-orange-bright: #ff9161;
+    --sk-green: #50fa7b;
+    --sk-green-bright: #69ff94;
+    --sk-yellow: #f3ff70;
+    --sk-yellow-bright: #f7ff9e;
+    --sk-cyan: #00d0ff;
+    --sk-cyan-bright: #5cd0ff;
+    --sk-blue: #297fff;
+    --sk-blue-bright: #408dff;
+    --sk-dark-blue: #476aff;
+    --sk-dark-blue-bright: #5c7bff;
+    --sk-purple: #9252ff;
+    --sk-purple-bright: #9f66ff;
+
+    --sk-foreground: var(--sk-text);
+    --sk-background: var(--sk-base);
+    --sk-selection:  var(--sk-grey-900);
+    --sk-comment:    var(--sk-grey-600);
 }
